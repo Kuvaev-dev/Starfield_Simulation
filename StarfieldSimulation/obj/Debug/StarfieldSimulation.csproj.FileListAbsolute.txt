@@ -1,0 +1,10 @@
+D:\Программирование\C#\StarfieldSimulation\bin\Debug\StarfieldSimulation.exe.config
+D:\Программирование\C#\StarfieldSimulation\bin\Debug\StarfieldSimulation.exe
+D:\Программирование\C#\StarfieldSimulation\bin\Debug\StarfieldSimulation.pdb
+D:\Программирование\C#\StarfieldSimulation\obj\Debug\StarfieldSimulation.csprojAssemblyReference.cache
+D:\Программирование\C#\StarfieldSimulation\obj\Debug\StarfieldSimulation.Form1.resources
+D:\Программирование\C#\StarfieldSimulation\obj\Debug\StarfieldSimulation.Properties.Resources.resources
+D:\Программирование\C#\StarfieldSimulation\obj\Debug\StarfieldSimulation.csproj.GenerateResource.cache
+D:\Программирование\C#\StarfieldSimulation\obj\Debug\StarfieldSimulation.csproj.CoreCompileInputs.cache
+D:\Программирование\C#\StarfieldSimulation\obj\Debug\StarfieldSimulation.exe
+D:\Программирование\C#\StarfieldSimulation\obj\Debug\StarfieldSimulation.pdb
