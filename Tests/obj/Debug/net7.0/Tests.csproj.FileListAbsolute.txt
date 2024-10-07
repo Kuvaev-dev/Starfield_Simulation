@@ -1,0 +1,5 @@
+D:\projects\Stars\Tests\obj\Debug\net7.0\Tests.csproj.AssemblyReference.cache
+D:\projects\Stars\Tests\obj\Debug\net7.0\Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Stars\Tests\obj\Debug\net7.0\Tests.AssemblyInfoInputs.cache
+D:\projects\Stars\Tests\obj\Debug\net7.0\Tests.AssemblyInfo.cs
+D:\projects\Stars\Tests\obj\Debug\net7.0\Tests.csproj.CoreCompileInputs.cache

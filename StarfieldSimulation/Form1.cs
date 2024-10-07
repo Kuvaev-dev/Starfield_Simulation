@@ -19,16 +19,16 @@ namespace StarfieldSimulation
             public float Z { get; set; }
         }
 
-        private Star[] stars = new Star[20000];
-        private Random random = new Random();
-        private Graphics graphics;
+        public Star[] stars = new Star[20000];
+        public Random random = new Random();
+        public Graphics graphics;
 
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        public void timer1_Tick(object sender, EventArgs e)
         {
             graphics.Clear(Color.Black);
             foreach (var star in stars)
@@ -39,7 +39,7 @@ namespace StarfieldSimulation
             pictureBox1.Refresh();
         }
 
-        private void MoveStar(Star star)
+        public void MoveStar(Star star)
         {
             star.Z -= 15;
             if (star.Z < 1)
@@ -50,7 +50,7 @@ namespace StarfieldSimulation
             }
         }
 
-        private void DrawStar(Star star)
+        public void DrawStar(Star star)
         {
             float starSize = Map(star.Z, 0, pictureBox1.Width, 9, 0);
             float x = Map(star.X / star.Z, 0, 1, 0, pictureBox1.Width) + pictureBox1.Width / 2;
@@ -58,12 +58,12 @@ namespace StarfieldSimulation
             graphics.FillEllipse(Brushes.GreenYellow, x, y, starSize, starSize);
         }
 
-        private float Map(float n, float start1, float stop1, float start2, float stop2)
+        public float Map(float n, float start1, float stop1, float start2, float stop2)
         {
             return ((n - start1) / (stop1 - start1)) * (stop2 - start2) + start2;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        public void Form1_Load(object sender, EventArgs e)
         {
             pictureBox1.Image = new Bitmap(pictureBox1.Width, pictureBox1.Height);
             graphics = Graphics.FromImage(pictureBox1.Image);
@@ -77,6 +77,11 @@ namespace StarfieldSimulation
                 };
             }
             timer1.Start();
+        }
+
+        public void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
